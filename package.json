@@ -10,26 +10,23 @@
     "type": "git",
     "url": "git+https://github.com/Harish-cheenu/Miss_cupcake.git"
   },
-  "keywords": [
-    "surge"
-  ],
   "author": "Harish Narayanasamy",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Harish-cheenu/Miss_cupcake/issues"
   },
   "homepage": "https://github.com/Harish-cheenu/Miss_cupcake#readme",
+ "keywords": ["surge", "surge.sh", "git hooks"],
   "devDependencies": {
-    "git-scripts": "^0.4.3",
-    "surge": "^0.23.0"
+    "git-scripts": "^0.2.1",
+    "surge": "latest"
   },
-  "git": {
+ "git": {
+    "scripts": {
+      "pre-push": "npm run deploy"
+    }
+  },
   "scripts": {
-    "post-commit": "npm run deploy",
-    "pre-push": "npm run deploy"
+    "deploy": "surge --project ./ --domain example-githooks.surge.sh"
   }
-},
-"scripts": {
-  "deploy": "surge --project ./ --domain harish.misscupcake.surge.sh"
-}
 }
