@@ -1,0 +1,30 @@
+{
+  "name": "misscupcake",
+  "version": "1.0.0",
+  "description": "my practice for a static page for a store.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harish-cheenu/Miss_cupcake.git"
+  },
+  "keywords": [
+    "surge"
+  ],
+  "author": "Harish Narayanasamy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harish-cheenu/Miss_cupcake/issues"
+  },
+  "homepage": "https://github.com/Harish-cheenu/Miss_cupcake#readme",
+  "devDependencies": {
+    "git-scripts": "^0.4.3",
+    "surge": "^0.23.0"
+  },
+  "git": {
+    "scripts": {
+    "pre-push": "surge --project ./ --domain harish.misscupcake.surge.sh"
+  }
+}
