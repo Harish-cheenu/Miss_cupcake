@@ -27,6 +27,6 @@
     }
   },
   "scripts": {
-    "deploy": "surge --project ./ --domain example-githooks.surge.sh"
+    "deploy": "surge --project ./ --domain harish.miss.surge.sh"
   }
 }
