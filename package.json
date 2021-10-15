@@ -2,7 +2,7 @@
   "name": "misscupcake",
   "version": "1.0.0",
   "description": "my practice for a static page for a store.",
-  "main": "index.html",
+   "homepage": "https://surge.sh",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
