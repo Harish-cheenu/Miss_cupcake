@@ -1,5 +1,5 @@
 {
-  "name": "@surge/harish.miss",
+  "name": "@surge/Miss_cupcake",
   "version": "1.0.0",
   "description": "my practice for a static page for a store.",
   "homepage": "https://surge.sh",
@@ -25,6 +25,6 @@
     }
   },
   "scripts": {
-    "deploy": "surge --project ./ --domain harish.miss.surge.sh"
+    "deploy": "surge --project ./ --domain Miss_cupcake.surge.sh"
   }
 }
