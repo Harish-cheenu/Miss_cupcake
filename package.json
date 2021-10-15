@@ -23,7 +23,8 @@
   },
  "git": {
     "scripts": {
-      "push": "npm run deploy"
+      "post-commit": "npm run deploy",
+      "pre-push": "npm run deploy"
     }
   },
   "scripts": {
