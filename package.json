@@ -9,6 +9,7 @@
   },
   "author": "Harish Narayanasamy <harishcheenu1234@gmail.com>",
   "license": "ISC",
+  "private": true,
   "bugs": {
     "url": "https://github.com/Harish-cheenu/Miss_cupcake/issues"
   },
