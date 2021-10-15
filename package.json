@@ -2,10 +2,7 @@
   "name": "@surge/harish.miss",
   "version": "1.0.0",
   "description": "my practice for a static page for a store.",
-   "homepage": "https://surge.sh",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "homepage": "https://surge.sh",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Harish-cheenu/Miss_cupcake.git"
@@ -15,7 +12,6 @@
   "bugs": {
     "url": "https://github.com/Harish-cheenu/Miss_cupcake/issues"
   },
-  "homepage": "https://github.com/Harish-cheenu/Miss_cupcake#readme",
  "keywords": ["surge", "surge.sh", "git hooks"],
   "devDependencies": {
     "git-scripts": "^0.2.1",
